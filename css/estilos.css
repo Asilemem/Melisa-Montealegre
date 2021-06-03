@@ -114,7 +114,7 @@ nav a:hover{
 /*ESTILOS DE BANNER*/
 .banner {
     /*Imagen de fondo*/
-    background-image: url(media/taza.jpg);
+    background-image: url(../media/taza.jpg);
     /*Posición del fondo x|y*/
     background-position: center;
     /*¿Repetir fondo? (tramas)*/
