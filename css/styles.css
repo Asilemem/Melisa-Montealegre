@@ -813,6 +813,7 @@ input[type='checkbox'] {
 	padding-top: 4rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
+        background-color: #fd8c08;
 }
 
 .cards-1 h2 {
@@ -840,12 +841,18 @@ input[type='checkbox'] {
 
 .cards-1 .card-title {
 	margin-bottom: 0.875rem;
+        color: white;
 }
 
 .cards-1 .card-body {
 	padding: 0;
+    
 }
 
+.cards-1 .card-body p{
+	color: white;
+    
+}
 
 /*************************/
 /*     07. Details 1     */
