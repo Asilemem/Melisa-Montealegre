@@ -813,9 +813,15 @@ input[type='checkbox'] {
 	padding-top: 4rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
-        background-color: #fd8c08;
 }
 
+#info {
+	background-color: #fd8c08;
+}
+
+#services .cards-1 {
+    background-color: #fd8c08;
+}
 .cards-1 h2 {
 	margin-bottom: 1rem;
 }
@@ -841,7 +847,12 @@ input[type='checkbox'] {
 
 .cards-1 .card-title {
 	margin-bottom: 0.875rem;
-        color: white;
+        
+}
+
+#info h4{
+	color: white;
+    
 }
 
 .cards-1 .card-body {
@@ -849,11 +860,13 @@ input[type='checkbox'] {
     
 }
 
-.cards-1 .card-body p{
+#info p{
 	color: white;
     
 }
-
+#info .card{
+    border: none
+}
 /*************************/
 /*     07. Details 1     */
 /*************************/
