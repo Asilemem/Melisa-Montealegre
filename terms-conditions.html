@@ -31,7 +31,7 @@
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
+<body data-spy="scroll" data-target=".fixed-top" id="suscripcion1">
     
     <!-- Preloader -->
 	<div class="spinner-wrapper">
@@ -65,7 +65,7 @@
                 </li>
                 
                 <li class="nav-item dropdown">
-                    <a class="nav-link page-scroll dropdown-toggle" href="#services">Suscripciones</a>
+                    <a class="nav-link page-scroll dropdown-toggle" id="suscripcionesnav">Suscripciones</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">Starter</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -336,6 +336,140 @@
     </div> <!-- end of ex-basic -->
     <!-- end of terms content -->
 
+    <div id="pricing" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>También te puede interesar</h2>
+                    <!--<p class="p-heading p-large">Suscribite a la opción que más se adapte a vos y comenzá a vivir la experiencia.</p>-->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card-->
+                    <!--<div class="card">
+                        <div class="card-body">
+                            <img class="imgsuscripcion" src="images/plantmes1.png" alt="alternative">
+                            <!--<hr class="cell-divide-hr">-->
+                            <!--<div class="card-title">STARTER</div>
+                            <div class="card-subtitle">Just to see what can be achieved</div>
+                            <hr class="cell-divide-hr">
+                            <div class="price">
+                                <span class="currency">$</span><span class="value">3000</span><span class="currency">/mes</span>
+                                <div class="frequency">Suscripción por única vez</div>
+                            </div>
+                            <!--<hr class="cell-divide-hr">
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">2 Selección Classic</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">Tierra + Fertilizante</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-times"></i><div class="media-body">Guía primeros pasos</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-times"></i><div class="media-body">1 Selección Premium</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-times"></i><div class="media-body">¡Regalo sorpresa!</div>
+                                </li>
+                            </ul>-->
+                            <!--<div>
+                                <a class="btn-solid-reg page-scroll" href="#request">Suscribir</a>
+                            </div>
+                        </div>
+                    <!--</div> <!-- end of card -->
+                    <!-- end of card -->
+
+                    <!-- Card-->
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="imgsuscripcion" src="images/plantmes2.png" alt="alternative">
+                            <div class="card-title">MEDIUM</div>
+                            <div class="card-subtitle">Very appropriate for the short term</div>
+                            <hr class="cell-divide-hr">
+                            <div class="price">
+                                <span class="currency">$</span><span class="value">2865</span><span class="currency">/mes</span>
+                                <div class="frequency">Suscripción por 6 meses</div>
+                            </div>
+                            <!--<hr class="cell-divide-hr">
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">1 Selección Classic</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">1 Selección Premium</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">Tierra + Fertilizante</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">Guía Personalizada</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-times"></i><div class="media-body">¡Regalo sorpresa!</div>
+                                </li>
+                            </ul>-->
+                            <div >
+                                <a class="btn-solid-reg page-scroll" href="#request">Suscribir</a>
+                            </div>
+                        </div>
+                    </div> <!-- end of card -->
+                    <!-- end of card -->
+
+                    <!-- Card-->
+                    <div class="card">
+                        <div class="label">
+                            <p class="best-value">Best Value</p>
+                        </div>
+                        <div class="card-body">
+                            <img class="imgsuscripcion" src="images/plantmes3.png" alt="alternative">
+                            <!--<hr class="cell-divide-hr">-->
+                            <div class="card-title">
+                                Premium
+                            </div>
+                            <div class="card-subtitle">
+                                Para los amantes de las plantas
+                            </div>
+                            <hr class="cell-divide-hr">
+                            <div class="price">
+                                <span class="currency">$</span><span class="value">2587</span><span class="currency" id="mes">/mes</span>
+                                <div class="frequency">Suscripción por 12 meses</div>
+                            </div>
+                            
+                            <!--<ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">2 Selección Classic</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">1 Selección Premium</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">Tierra + Fertilizante</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">Guía personalizada + video</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-check"></i><div class="media-body">¡Regalo sorpresa!</div>
+                                </li>
+                            </ul>-->
+                            <div >
+                                <a class="btn-solid-reg page-scroll" href="#request">Suscribir</a>
+                            </div>
+                        </div>
+                    </div> <!-- end of card -->
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of pricing -->
+    
     <!-- Request -->
     <div id="request" class="form-1">
         <div class="container">
