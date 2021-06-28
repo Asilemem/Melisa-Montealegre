@@ -676,7 +676,7 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-#suscripcion1, #suscripcion2, #suscripcion3,#suscripcionesnav{
+#suscripcion1, #suscripcion2, #suscripcion3, #suscripcionesnav{
     color: #ff6200;
 }
 
@@ -1703,6 +1703,10 @@ a:hover.back-to-top {
 
 .ex-basic-1 .breadcrumbs {
 	margin-bottom: 1.125rem;
+}
+
+.breadcrumbs, .media-body, card-subtitle{
+    color:#626262;
 }
 
 .ex-basic-1 .breadcrumbs .fa {
