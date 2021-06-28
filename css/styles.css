@@ -676,9 +676,12 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-#suscripcion1 #suscripcionesnav{
-        border-bottom: 1px solid #fd8c08;
+#suscripcion1, #suscripcion2, #suscripcion3,#suscripcionesnav{
     color: #ff6200;
+}
+
+#suscripcionesnav{
+    border-bottom: 1px solid #fd8c08;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
@@ -1416,6 +1419,31 @@ input[type='checkbox'] {
 	margin-bottom: 0;
 }
 
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border: #bbb solid 1px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    
+}
+
+#customers .active, .dot:hover {
+  background-color: #fd8c08;
+    border: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
 
 /*********************/
 /*     14. About     */
@@ -1642,7 +1670,8 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00bfd8 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #ff8900 url("../images/up-arrow.png") no-repeat center 47%;
+    border: white solid 1px;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
