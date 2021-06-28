@@ -676,7 +676,7 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-#suscripcion1, #suscripcion2, #suscripcion3, #suscripcionesnav{
+#suscripcionbox1, #suscripcionbox2, #suscripcionbox3, #suscripcionesnav{
     color: #ff6200;
 }
 
@@ -834,6 +834,12 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 4rem;
 	padding-bottom: 1.625rem;
+	text-align: center;
+}
+
+#suscripcion1 .cards-1, #suscripcion2 .cards-1, #suscripcion3 .cards-1 {
+	padding-top: 0;
+	padding-bottom: 2rem;
 	text-align: center;
 }
 
