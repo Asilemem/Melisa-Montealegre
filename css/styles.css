@@ -1635,7 +1635,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #00bfd8;
+	color: #205f2c;
 	transition: all 0.2s ease;
 }
 
@@ -1644,7 +1644,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00a7bd;
+    color: #1c9533;
 }
 
 
