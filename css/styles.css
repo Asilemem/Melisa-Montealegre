@@ -102,6 +102,10 @@ h5 {
 	font: 700 1.125rem/1.625rem "Raleway", sans-serif;
 }
 
+#compra h5 span{
+	color: #fd8c08;
+}
+
 h6 {
 	color: #393939;
 	font: 700 1rem/1.5rem "Raleway", sans-serif;
@@ -110,6 +114,16 @@ h6 {
 a {
 	color: #626262;
 	text-decoration: underline;
+}
+
+.footer .media .media-body a{
+    text-decoration: none;
+    color: #fd5d08;
+}
+
+.footer .media .media-body a:hover{
+    color: #fd5d08;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -609,7 +623,7 @@ input[type='checkbox'] {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #00bfd8;
+	background-color: #fd8c08;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -781,7 +795,8 @@ input[type='checkbox'] {
 .header {
 	background: url('../images/fondo-hero4.jpg') center center no-repeat;
     background-size: cover;
-    min-height: 754px;
+    height: 100vh;
+    /*min-height: 754px;*/
     /*background-color: #fff;*/
 }
 
@@ -922,6 +937,10 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 3.75rem;
 	padding-bottom: 4rem;
+}
+
+#beneficios{
+    background-color: #faf8f5;
 }
 
 .basic-2 .image-container {
@@ -1537,13 +1556,17 @@ input[type='checkbox'] {
 	background-size: cover; 
 }
 
+#suscripcion1 .form-2 h2, #suscripcion2 .form-2 h2, #suscripcion3 .form-2 h2 {
+	margin-top: 1rem;
+}
+
 .form-2 h2 {
 	margin-bottom: 1rem;
 	text-align: center;
 }
 
 .form-2 .list-unstyled {
-	margin-bottom: 3.75rem;
+	margin-bottom: 1rem;
 	font-size: 1rem;
 	line-height: 1.5rem;
 	text-align: center;
@@ -1704,9 +1727,16 @@ a:hover.back-to-top {
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
-	background-color: #f7fcfd;
+	background-color: #faf8f5;
 }
 
+.ex-basic-1 a{
+    color: #fd5d08;
+    text-decoration: none;
+}
+ .ex-basic-1 a:hover{
+     text-decoration: underline;
+}
 .ex-basic-1 .breadcrumbs {
 	margin-bottom: 1.125rem;
 }
